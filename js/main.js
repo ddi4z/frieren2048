@@ -68,6 +68,7 @@ function init(){
 	updateView();
 
 	score=0;
+	
 	updateScore(score);
 }
 

@@ -115,7 +115,11 @@ function noBlockVertical(col,row1,row2,nums){
 }
 //更新分数
 function updateScore(score){
-	$('#score').text(score);
+	$('#current-score').text(score);
+	if (score > localStorage.getItem('best-score')) {
+		localStorage.setItem('best-score', score);
+	}
+	$('#best-score').text(localStorage.getItem('best-score'));
 }
 //判断是否不能移动
 function noMove(nums){

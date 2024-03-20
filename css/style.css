@@ -27,15 +27,25 @@
 	padding:6px;
 	border-radius:6px;
 }
-#header .score-wrapper #txt{
+#header .score-wrapper #current-txt{
 	color:#d2c1c1;
 }
-#header .score-wrapper #score{
+#header .score-wrapper #current-score{
 	color:#fff;
 	font-size:30px;
 	vertical-align:middle;
 
 }
+
+#header .score-wrapper #best-txt{
+	color:#d2c1c1;
+}
+#header .score-wrapper #best-score{
+	color:#fff;
+	font-size:30px;
+	vertical-align:middle;
+}
+
 #header .newgame-wrapper #newGame{
 	width:100px;
 	display:block;
